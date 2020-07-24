@@ -28,9 +28,6 @@ const inputBuscar = (e) => {
     botao.disabled = true;
   }
 
-  btBuscaUsuarios.value.length
-    ? (botao.disabled = false)
-    : (botao.disabled = true);
   if (e.key === 'Enter' && btBuscaUsuarios.value.length) {
     filtroUsuarios();
   } else {
